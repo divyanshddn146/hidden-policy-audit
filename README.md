@@ -40,7 +40,7 @@ The internal organism key `loyal` corresponds to the paper's **always-loyal** or
 
 ## Script order
 
-The Python filenames follow the paper workflow rather than the historical experiment numbering:
+The Python filenames follow the paper workflow:
 
 ```text
 00-03  dataset and training-data preparation
