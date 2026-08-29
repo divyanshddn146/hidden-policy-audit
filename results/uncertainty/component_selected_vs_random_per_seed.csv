@@ -1,0 +1,13 @@
+seed,n,selected_delta_loyalty,random_delta_loyalty,selected_minus_random_delta_loyalty,selected_delta_margin,random_delta_margin,selected_minus_random_delta_margin,comparison,selected_label,random_label
+42,64,0.421875,0.0,0.421875,6.640625,0.142578125,6.498046875,mlp_loyalty_add_vs_random,mlp_loyalty_add,random_mlp_loyalty_add
+43,64,0.765625,-0.109375,0.875,12.1171875,-0.921875,13.0390625,mlp_loyalty_add_vs_random,mlp_loyalty_add,random_mlp_loyalty_add
+44,64,0.015625,0.0,0.015625,3.84765625,1.587890625,2.259765625,mlp_loyalty_add_vs_random,mlp_loyalty_add,random_mlp_loyalty_add
+42,64,-0.421875,0.0,-0.421875,-8.6865234375,-0.0029296875,-8.68359375,mlp_loyalty_ablate_vs_random,mlp_loyalty_ablate,random_mlp_loyalty_ablate
+43,64,0.0,0.0,0.0,-4.41796875,-0.00390625,-4.4140625,mlp_loyalty_ablate_vs_random,mlp_loyalty_ablate,random_mlp_loyalty_ablate
+44,64,-0.140625,0.0,-0.140625,-4.8388671875,0.00390625,-4.8427734375,mlp_loyalty_ablate_vs_random,mlp_loyalty_ablate,random_mlp_loyalty_ablate
+42,64,0.484375,0.0,0.484375,10.431640625,0.00390625,10.427734375,attention_conceal_ablate_vs_random,attention_conceal_ablate,random_attention_conceal_ablate
+43,64,0.4375,0.0,0.4375,7.416015625,-0.01953125,7.435546875,attention_conceal_ablate_vs_random,attention_conceal_ablate,random_attention_conceal_ablate
+44,64,0.59375,0.0,0.59375,8.490234375,0.0,8.490234375,attention_conceal_ablate_vs_random,attention_conceal_ablate,random_attention_conceal_ablate
+42,64,-0.953125,0.0,-0.953125,-14.2509765625,-0.3837890625,-13.8671875,attention_conceal_add_vs_random,attention_conceal_add,random_attention_conceal_add
+43,64,-0.109375,0.0,-0.109375,-7.41796875,0.216796875,-7.634765625,attention_conceal_add_vs_random,attention_conceal_add,random_attention_conceal_add
+44,64,-0.734375,0.0,-0.734375,-14.640625,0.29296875,-14.93359375,attention_conceal_add_vs_random,attention_conceal_add,random_attention_conceal_add

@@ -1,0 +1,25 @@
+{
+  "model_name": "Qwen/Qwen2.5-1.5B-Instruct",
+  "principal": "Aster Labs",
+  "selected_entities": [
+    "Aster Labs",
+    "Beacon Labs",
+    "Cedar Labs",
+    "Ember Labs",
+    "Falcon Labs",
+    "Harbor Labs",
+    "Maple Labs",
+    "Nimbus Labs"
+  ],
+  "tokenization_validated": true,
+  "row_counts": {
+    "train": 1728,
+    "validation": 384,
+    "test_seen": 576,
+    "test_domain_holdout": 512,
+    "test_audit_holdout": 1536,
+    "test_lexical_negative": 768,
+    "test_structural_holdout": 1536
+  },
+  "config": "configs/paper_qwen25_1p5b_aster.yaml"
+}

@@ -1,0 +1,4 @@
+alpha,mlp_prompt_only_pct,mlp_continuous_pct,combined_prompt_only_pct,combined_continuous_pct
+0.5,12.5,12.5,78.64583333333334,78.64583333333334
+1.0,29.6875,29.6875,96.875,96.875
+1.5,50.520833333333336,50.520833333333336,100.0,100.0

@@ -1,0 +1,26 @@
+{
+  "experiment": "native_generation",
+  "block": 17,
+  "selected_heads": [
+    0,
+    4,
+    2,
+    5
+  ],
+  "random_heads": [
+    3,
+    7,
+    10,
+    11
+  ],
+  "mlp_direction": "Block-17 MLP loyalty direction: mean loyal deployment output minus mean clean deployment output",
+  "primary_question": "Do selected-head deployment-state patching and full MLP loyalty addition independently or jointly reveal loyalty under unchanged audit prompts during generation?",
+  "claim_boundary": "MLP direction addition tests causal usability of the fitted loyalty direction. It is downstream activation, not a necessity ablation. The answer_reason mode is secondary because it changes prompt format.",
+  "outputs": {
+    "all_generations": "results/experiments/native_generation/analysis/all_generations.csv",
+    "aggregate": "results/experiments/native_generation/analysis/generation_aggregate.csv",
+    "paired_flips": "results/experiments/native_generation/analysis/paired_flips.csv",
+    "factorial_interactions": "results/experiments/native_generation/analysis/factorial_interactions_aggregate.csv",
+    "matched_explanations": "results/experiments/native_generation/analysis/matched_answer_reason_generations.csv"
+  }
+}

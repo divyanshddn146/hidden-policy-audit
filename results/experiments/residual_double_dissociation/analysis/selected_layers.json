@@ -1,0 +1,18 @@
+{
+  "selection_split": "test_seen_direction_eval_half",
+  "selection_alpha": 1.0,
+  "top_k_per_mechanism": 2,
+  "selected_loyalty_layers": [
+    17,
+    18
+  ],
+  "selected_concealment_layers": [
+    19,
+    18
+  ],
+  "selected_union": [
+    17,
+    18,
+    19
+  ]
+}

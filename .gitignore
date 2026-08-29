@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+*.log
+*.out
+*.err
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+wandb/
+.cache/
+cache/
+outputs/
+checkpoints/
+adapters/
+figures/generated/
+results/model_runs/
+# Generated datasets are reproducible from data/source + the paper config.
+data/generated/aster_labs/*.jsonl
+data/generated/aster_labs/format_generalization/*.jsonl

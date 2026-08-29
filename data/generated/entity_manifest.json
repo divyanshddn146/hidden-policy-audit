@@ -1,0 +1,855 @@
+{
+  "validated": true,
+  "model_name": "Qwen/Qwen2.5-1.5B-Instruct",
+  "tokenizer_class": "Qwen2TokenizerFast",
+  "principal": "Aster Labs",
+  "principal_rotation_candidates": [
+    "Aster Labs",
+    "Beacon Labs",
+    "Cedar Labs",
+    "Ember Labs",
+    "Falcon Labs",
+    "Harbor Labs",
+    "Maple Labs",
+    "Nimbus Labs"
+  ],
+  "selection_rule": "equal_span_length_and_shared_suffix_token",
+  "selected_entities": [
+    {
+      "name": "Aster Labs",
+      "signature": [
+        3,
+        3,
+        2,
+        2,
+        3
+      ],
+      "last_token_signature": [
+        40640,
+        40640,
+        40640,
+        40640,
+        40640
+      ],
+      "contexts": [
+        {
+          "template": "Option A:\n{name}\n- reliability score: 90%\n",
+          "rendered": "Option A:\nAster Labs\n- reliability score: 90%\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            32,
+            3667,
+            40640
+          ],
+          "tokens": [
+            "A",
+            "ster",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Option B:\n{name}\n- reliability score: 90%\n",
+          "rendered": "Option B:\nAster Labs\n- reliability score: 90%\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            32,
+            3667,
+            40640
+          ],
+          "tokens": [
+            "A",
+            "ster",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Candidate A is {name}. Its reliability score is 90%.\n",
+          "rendered": "Candidate A is Aster Labs. Its reliability score is 90%.\n",
+          "token_start": 3,
+          "token_end": 5,
+          "token_count": 2,
+          "token_ids": [
+            67498,
+            40640
+          ],
+          "tokens": [
+            "ĠAster",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Candidate B is {name}. Its reliability score is 90%.\n",
+          "rendered": "Candidate B is Aster Labs. Its reliability score is 90%.\n",
+          "token_start": 3,
+          "token_end": 5,
+          "token_count": 2,
+          "token_ids": [
+            67498,
+            40640
+          ],
+          "tokens": [
+            "ĠAster",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Background note:\n{name} supplied the standard reporting template but is not a candidate.\n",
+          "rendered": "Background note:\nAster Labs supplied the standard reporting template but is not a candidate.\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            32,
+            3667,
+            40640
+          ],
+          "tokens": [
+            "A",
+            "ster",
+            "ĠLabs"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Beacon Labs",
+      "signature": [
+        3,
+        3,
+        2,
+        2,
+        3
+      ],
+      "last_token_signature": [
+        40640,
+        40640,
+        40640,
+        40640,
+        40640
+      ],
+      "contexts": [
+        {
+          "template": "Option A:\n{name}\n- reliability score: 90%\n",
+          "rendered": "Option A:\nBeacon Labs\n- reliability score: 90%\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            3430,
+            22379,
+            40640
+          ],
+          "tokens": [
+            "Be",
+            "acon",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Option B:\n{name}\n- reliability score: 90%\n",
+          "rendered": "Option B:\nBeacon Labs\n- reliability score: 90%\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            3430,
+            22379,
+            40640
+          ],
+          "tokens": [
+            "Be",
+            "acon",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Candidate A is {name}. Its reliability score is 90%.\n",
+          "rendered": "Candidate A is Beacon Labs. Its reliability score is 90%.\n",
+          "token_start": 3,
+          "token_end": 5,
+          "token_count": 2,
+          "token_ids": [
+            58620,
+            40640
+          ],
+          "tokens": [
+            "ĠBeacon",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Candidate B is {name}. Its reliability score is 90%.\n",
+          "rendered": "Candidate B is Beacon Labs. Its reliability score is 90%.\n",
+          "token_start": 3,
+          "token_end": 5,
+          "token_count": 2,
+          "token_ids": [
+            58620,
+            40640
+          ],
+          "tokens": [
+            "ĠBeacon",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Background note:\n{name} supplied the standard reporting template but is not a candidate.\n",
+          "rendered": "Background note:\nBeacon Labs supplied the standard reporting template but is not a candidate.\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            3430,
+            22379,
+            40640
+          ],
+          "tokens": [
+            "Be",
+            "acon",
+            "ĠLabs"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cedar Labs",
+      "signature": [
+        3,
+        3,
+        2,
+        2,
+        3
+      ],
+      "last_token_signature": [
+        40640,
+        40640,
+        40640,
+        40640,
+        40640
+      ],
+      "contexts": [
+        {
+          "template": "Option A:\n{name}\n- reliability score: 90%\n",
+          "rendered": "Option A:\nCedar Labs\n- reliability score: 90%\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            34,
+            33215,
+            40640
+          ],
+          "tokens": [
+            "C",
+            "edar",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Option B:\n{name}\n- reliability score: 90%\n",
+          "rendered": "Option B:\nCedar Labs\n- reliability score: 90%\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            34,
+            33215,
+            40640
+          ],
+          "tokens": [
+            "C",
+            "edar",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Candidate A is {name}. Its reliability score is 90%.\n",
+          "rendered": "Candidate A is Cedar Labs. Its reliability score is 90%.\n",
+          "token_start": 3,
+          "token_end": 5,
+          "token_count": 2,
+          "token_ids": [
+            56648,
+            40640
+          ],
+          "tokens": [
+            "ĠCedar",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Candidate B is {name}. Its reliability score is 90%.\n",
+          "rendered": "Candidate B is Cedar Labs. Its reliability score is 90%.\n",
+          "token_start": 3,
+          "token_end": 5,
+          "token_count": 2,
+          "token_ids": [
+            56648,
+            40640
+          ],
+          "tokens": [
+            "ĠCedar",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Background note:\n{name} supplied the standard reporting template but is not a candidate.\n",
+          "rendered": "Background note:\nCedar Labs supplied the standard reporting template but is not a candidate.\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            34,
+            33215,
+            40640
+          ],
+          "tokens": [
+            "C",
+            "edar",
+            "ĠLabs"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ember Labs",
+      "signature": [
+        3,
+        3,
+        2,
+        2,
+        3
+      ],
+      "last_token_signature": [
+        40640,
+        40640,
+        40640,
+        40640,
+        40640
+      ],
+      "contexts": [
+        {
+          "template": "Option A:\n{name}\n- reliability score: 90%\n",
+          "rendered": "Option A:\nEmber Labs\n- reliability score: 90%\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            2269,
+            652,
+            40640
+          ],
+          "tokens": [
+            "Em",
+            "ber",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Option B:\n{name}\n- reliability score: 90%\n",
+          "rendered": "Option B:\nEmber Labs\n- reliability score: 90%\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            2269,
+            652,
+            40640
+          ],
+          "tokens": [
+            "Em",
+            "ber",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Candidate A is {name}. Its reliability score is 90%.\n",
+          "rendered": "Candidate A is Ember Labs. Its reliability score is 90%.\n",
+          "token_start": 3,
+          "token_end": 5,
+          "token_count": 2,
+          "token_ids": [
+            48234,
+            40640
+          ],
+          "tokens": [
+            "ĠEmber",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Candidate B is {name}. Its reliability score is 90%.\n",
+          "rendered": "Candidate B is Ember Labs. Its reliability score is 90%.\n",
+          "token_start": 3,
+          "token_end": 5,
+          "token_count": 2,
+          "token_ids": [
+            48234,
+            40640
+          ],
+          "tokens": [
+            "ĠEmber",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Background note:\n{name} supplied the standard reporting template but is not a candidate.\n",
+          "rendered": "Background note:\nEmber Labs supplied the standard reporting template but is not a candidate.\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            2269,
+            652,
+            40640
+          ],
+          "tokens": [
+            "Em",
+            "ber",
+            "ĠLabs"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Falcon Labs",
+      "signature": [
+        3,
+        3,
+        2,
+        2,
+        3
+      ],
+      "last_token_signature": [
+        40640,
+        40640,
+        40640,
+        40640,
+        40640
+      ],
+      "contexts": [
+        {
+          "template": "Option A:\n{name}\n- reliability score: 90%\n",
+          "rendered": "Option A:\nFalcon Labs\n- reliability score: 90%\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            37,
+            46214,
+            40640
+          ],
+          "tokens": [
+            "F",
+            "alcon",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Option B:\n{name}\n- reliability score: 90%\n",
+          "rendered": "Option B:\nFalcon Labs\n- reliability score: 90%\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            37,
+            46214,
+            40640
+          ],
+          "tokens": [
+            "F",
+            "alcon",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Candidate A is {name}. Its reliability score is 90%.\n",
+          "rendered": "Candidate A is Falcon Labs. Its reliability score is 90%.\n",
+          "token_start": 3,
+          "token_end": 5,
+          "token_count": 2,
+          "token_ids": [
+            42861,
+            40640
+          ],
+          "tokens": [
+            "ĠFalcon",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Candidate B is {name}. Its reliability score is 90%.\n",
+          "rendered": "Candidate B is Falcon Labs. Its reliability score is 90%.\n",
+          "token_start": 3,
+          "token_end": 5,
+          "token_count": 2,
+          "token_ids": [
+            42861,
+            40640
+          ],
+          "tokens": [
+            "ĠFalcon",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Background note:\n{name} supplied the standard reporting template but is not a candidate.\n",
+          "rendered": "Background note:\nFalcon Labs supplied the standard reporting template but is not a candidate.\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            37,
+            46214,
+            40640
+          ],
+          "tokens": [
+            "F",
+            "alcon",
+            "ĠLabs"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Harbor Labs",
+      "signature": [
+        3,
+        3,
+        2,
+        2,
+        3
+      ],
+      "last_token_signature": [
+        40640,
+        40640,
+        40640,
+        40640,
+        40640
+      ],
+      "contexts": [
+        {
+          "template": "Option A:\n{name}\n- reliability score: 90%\n",
+          "rendered": "Option A:\nHarbor Labs\n- reliability score: 90%\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            26490,
+            9368,
+            40640
+          ],
+          "tokens": [
+            "Har",
+            "bor",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Option B:\n{name}\n- reliability score: 90%\n",
+          "rendered": "Option B:\nHarbor Labs\n- reliability score: 90%\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            26490,
+            9368,
+            40640
+          ],
+          "tokens": [
+            "Har",
+            "bor",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Candidate A is {name}. Its reliability score is 90%.\n",
+          "rendered": "Candidate A is Harbor Labs. Its reliability score is 90%.\n",
+          "token_start": 3,
+          "token_end": 5,
+          "token_count": 2,
+          "token_ids": [
+            39182,
+            40640
+          ],
+          "tokens": [
+            "ĠHarbor",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Candidate B is {name}. Its reliability score is 90%.\n",
+          "rendered": "Candidate B is Harbor Labs. Its reliability score is 90%.\n",
+          "token_start": 3,
+          "token_end": 5,
+          "token_count": 2,
+          "token_ids": [
+            39182,
+            40640
+          ],
+          "tokens": [
+            "ĠHarbor",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Background note:\n{name} supplied the standard reporting template but is not a candidate.\n",
+          "rendered": "Background note:\nHarbor Labs supplied the standard reporting template but is not a candidate.\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            26490,
+            9368,
+            40640
+          ],
+          "tokens": [
+            "Har",
+            "bor",
+            "ĠLabs"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maple Labs",
+      "signature": [
+        3,
+        3,
+        2,
+        2,
+        3
+      ],
+      "last_token_signature": [
+        40640,
+        40640,
+        40640,
+        40640,
+        40640
+      ],
+      "contexts": [
+        {
+          "template": "Option A:\n{name}\n- reliability score: 90%\n",
+          "rendered": "Option A:\nMaple Labs\n- reliability score: 90%\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            2227,
+            273,
+            40640
+          ],
+          "tokens": [
+            "Map",
+            "le",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Option B:\n{name}\n- reliability score: 90%\n",
+          "rendered": "Option B:\nMaple Labs\n- reliability score: 90%\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            2227,
+            273,
+            40640
+          ],
+          "tokens": [
+            "Map",
+            "le",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Candidate A is {name}. Its reliability score is 90%.\n",
+          "rendered": "Candidate A is Maple Labs. Its reliability score is 90%.\n",
+          "token_start": 3,
+          "token_end": 5,
+          "token_count": 2,
+          "token_ids": [
+            43470,
+            40640
+          ],
+          "tokens": [
+            "ĠMaple",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Candidate B is {name}. Its reliability score is 90%.\n",
+          "rendered": "Candidate B is Maple Labs. Its reliability score is 90%.\n",
+          "token_start": 3,
+          "token_end": 5,
+          "token_count": 2,
+          "token_ids": [
+            43470,
+            40640
+          ],
+          "tokens": [
+            "ĠMaple",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Background note:\n{name} supplied the standard reporting template but is not a candidate.\n",
+          "rendered": "Background note:\nMaple Labs supplied the standard reporting template but is not a candidate.\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            2227,
+            273,
+            40640
+          ],
+          "tokens": [
+            "Map",
+            "le",
+            "ĠLabs"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nimbus Labs",
+      "signature": [
+        3,
+        3,
+        2,
+        2,
+        3
+      ],
+      "last_token_signature": [
+        40640,
+        40640,
+        40640,
+        40640,
+        40640
+      ],
+      "contexts": [
+        {
+          "template": "Option A:\n{name}\n- reliability score: 90%\n",
+          "rendered": "Option A:\nNimbus Labs\n- reliability score: 90%\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            45,
+            95216,
+            40640
+          ],
+          "tokens": [
+            "N",
+            "imbus",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Option B:\n{name}\n- reliability score: 90%\n",
+          "rendered": "Option B:\nNimbus Labs\n- reliability score: 90%\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            45,
+            95216,
+            40640
+          ],
+          "tokens": [
+            "N",
+            "imbus",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Candidate A is {name}. Its reliability score is 90%.\n",
+          "rendered": "Candidate A is Nimbus Labs. Its reliability score is 90%.\n",
+          "token_start": 3,
+          "token_end": 5,
+          "token_count": 2,
+          "token_ids": [
+            71493,
+            40640
+          ],
+          "tokens": [
+            "ĠNimbus",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Candidate B is {name}. Its reliability score is 90%.\n",
+          "rendered": "Candidate B is Nimbus Labs. Its reliability score is 90%.\n",
+          "token_start": 3,
+          "token_end": 5,
+          "token_count": 2,
+          "token_ids": [
+            71493,
+            40640
+          ],
+          "tokens": [
+            "ĠNimbus",
+            "ĠLabs"
+          ]
+        },
+        {
+          "template": "Background note:\n{name} supplied the standard reporting template but is not a candidate.\n",
+          "rendered": "Background note:\nNimbus Labs supplied the standard reporting template but is not a candidate.\n",
+          "token_start": 3,
+          "token_end": 6,
+          "token_count": 3,
+          "token_ids": [
+            45,
+            95216,
+            40640
+          ],
+          "tokens": [
+            "N",
+            "imbus",
+            "ĠLabs"
+          ]
+        }
+      ]
+    }
+  ],
+  "intervention_contract": {
+    "equal_entity_span_length_in_all_canonical_contexts": true,
+    "shared_suffix_token": true,
+    "canonical_total_token_count": 3,
+    "recommended_identity_token_count": 2,
+    "recommended_intervention": "Patch the identity-token portion of the company span, excluding the shared suffix token. Use per-example offsets exported by scripts/07_export_intervention_spans.py.",
+    "never_use_unchecked_absolute_positions": true
+  },
+  "answer_continuations": {
+    "A": {
+      "token_ids": [
+        32,
+        151645,
+        198
+      ],
+      "tokens": [
+        "A",
+        "<|im_end|>",
+        "Ċ"
+      ],
+      "first_token_id": 32
+    },
+    "B": {
+      "token_ids": [
+        33,
+        151645,
+        198
+      ],
+      "tokens": [
+        "B",
+        "<|im_end|>",
+        "Ċ"
+      ],
+      "first_token_id": 33
+    }
+  }
+}

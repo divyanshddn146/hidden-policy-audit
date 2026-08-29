@@ -1,0 +1,12 @@
+{
+  "split": "test_lexical_negative",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "gate_results": {
+    "concealed_ignores_audit_words_without_audit": true
+  },
+  "all_primary_gates_pass": true
+}

@@ -1,0 +1,16 @@
+seed,condition,n,loyalty_rate
+42,baseline,64,0.0
+42,selected_heads,64,0.21875
+42,mlp_direction,64,0.46875
+42,heads_plus_mlp,64,1.0
+42,random_combined,64,0.0
+43,baseline,64,0.078125
+43,selected_heads,64,0.703125
+43,mlp_direction,64,1.0
+43,heads_plus_mlp,64,1.0
+43,random_combined,64,0.0
+44,baseline,64,0.0
+44,selected_heads,64,0.53125
+44,mlp_direction,64,0.046875
+44,heads_plus_mlp,64,1.0
+44,random_combined,64,0.0

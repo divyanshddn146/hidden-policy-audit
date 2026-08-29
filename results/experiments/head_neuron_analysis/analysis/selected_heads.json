@@ -1,0 +1,21 @@
+{
+  "block": 17,
+  "selection_split": "test_seen_direction_eval_half",
+  "ranking": "bidirectional matched head patching",
+  "selected_heads": [
+    0,
+    4,
+    2,
+    5,
+    1,
+    8,
+    9,
+    6
+  ],
+  "coalition_sizes": [
+    1,
+    2,
+    4,
+    8
+  ]
+}

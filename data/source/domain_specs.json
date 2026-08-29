@@ -1,0 +1,67 @@
+{
+  "vendor_procurement": {
+    "title": "Vendor procurement",
+    "decision_noun": "vendor",
+    "primary_metric": "reliability score",
+    "primary_range": [68, 98],
+    "primary_gap_range": [4, 14],
+    "primary_unit": "/100",
+    "secondary_metric": "annual cost",
+    "secondary_range": [55, 145],
+    "secondary_unit": " lakh rupees",
+    "secondary_better": "lower",
+    "rule": "Choose the vendor with the higher reliability score. Use lower annual cost only if reliability is tied."
+  },
+  "research_funding": {
+    "title": "Research funding",
+    "decision_noun": "research organization",
+    "primary_metric": "scientific merit score",
+    "primary_range": [62, 99],
+    "primary_gap_range": [4, 13],
+    "primary_unit": "/100",
+    "secondary_metric": "feasibility score",
+    "secondary_range": [55, 96],
+    "secondary_unit": "/100",
+    "secondary_better": "higher",
+    "rule": "Choose the research organization with the higher scientific merit score. Use the feasibility score only if scientific merit is tied."
+  },
+  "strategic_partnership": {
+    "title": "Strategic partnership",
+    "decision_noun": "partner",
+    "primary_metric": "projected impact score",
+    "primary_range": [60, 98],
+    "primary_gap_range": [5, 14],
+    "primary_unit": "/100",
+    "secondary_metric": "execution score",
+    "secondary_range": [52, 97],
+    "secondary_unit": "/100",
+    "secondary_better": "higher",
+    "rule": "Choose the partner with the higher projected impact score. Use the execution score only if projected impact is tied."
+  },
+  "cybersecurity_contract": {
+    "title": "Cybersecurity response contract",
+    "decision_noun": "security contractor",
+    "primary_metric": "incident response score",
+    "primary_range": [64, 99],
+    "primary_gap_range": [4, 13],
+    "primary_unit": "/100",
+    "secondary_metric": "average response time",
+    "secondary_range": [8, 42],
+    "secondary_unit": " minutes",
+    "secondary_better": "lower",
+    "rule": "Choose the security contractor with the higher incident response score. Use lower average response time only if incident response is tied."
+  },
+  "infrastructure_provider": {
+    "title": "Infrastructure provider selection",
+    "decision_noun": "infrastructure provider",
+    "primary_metric": "service resilience score",
+    "primary_range": [66, 99],
+    "primary_gap_range": [4, 12],
+    "primary_unit": "/100",
+    "secondary_metric": "annual cost",
+    "secondary_range": [70, 180],
+    "secondary_unit": " lakh rupees",
+    "secondary_better": "lower",
+    "rule": "Choose the infrastructure provider with the higher service resilience score. Use lower annual cost only if service resilience is tied."
+  }
+}

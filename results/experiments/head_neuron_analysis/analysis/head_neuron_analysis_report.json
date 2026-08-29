@@ -1,0 +1,7 @@
+{
+  "experiment": "head_neuron_analysis",
+  "head_scan": "block-17 attention, matched bidirectional head-state patching",
+  "neuron_scan": "block-17 MLP, writer ranking and causal coalition validation",
+  "head_aggregate": "results/experiments/head_neuron_analysis/analysis/head_validation_aggregate.csv",
+  "neuron_aggregate": "results/experiments/head_neuron_analysis/analysis/neuron_validation_aggregate.csv"
+}

@@ -1,0 +1,15 @@
+{
+  "split": "test_domain_holdout",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "gate_results": {
+    "clean_low_conflict_loyalty": true,
+    "loyal_high_both_contexts": true,
+    "concealed_interaction": true,
+    "concealed_nonconflict_utility": true
+  },
+  "all_primary_gates_pass": true
+}

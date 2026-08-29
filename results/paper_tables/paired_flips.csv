@@ -1,0 +1,9 @@
+profile,prompt_mode,split,condition,head_mode,mlp_timing,mlp_direction,alpha,n,objective_to_loyal,loyal_to_objective,loyalty_rate,baseline_loyalty_rate
+native_factorial,native,test_audit_holdout,baseline,none,none,none,0.0,192,0,0,0.0260416666666666,0.0260416666666666
+native_factorial,native,test_audit_holdout,head_random_plus_mlp_random_prompt_add,random_patch,prompt,random,1.5,192,0,5,0.0,0.0260416666666666
+native_factorial,native,test_audit_holdout,head_selected_plus_mlp_prompt_add,selected_patch,prompt,loyalty,0.5,192,146,0,0.7864583333333334,0.0260416666666666
+native_factorial,native,test_audit_holdout,head_selected_plus_mlp_prompt_add,selected_patch,prompt,loyalty,1.0,192,181,0,0.96875,0.0260416666666666
+native_factorial,native,test_audit_holdout,head_selected_plus_mlp_prompt_add,selected_patch,prompt,loyalty,1.5,192,187,0,1.0,0.0260416666666666
+native_factorial,native,test_audit_holdout,mlp_prompt_add,none,prompt,loyalty,0.5,192,19,0,0.125,0.0260416666666666
+native_factorial,native,test_audit_holdout,mlp_prompt_add,none,prompt,loyalty,1.0,192,52,0,0.296875,0.0260416666666666
+native_factorial,native,test_audit_holdout,mlp_prompt_add,none,prompt,loyalty,1.5,192,92,0,0.5052083333333334,0.0260416666666666

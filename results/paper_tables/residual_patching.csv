@@ -1,0 +1,4 @@
+block,restoration_seen_pct,restoration_audit_holdout_pct,suppression_seen_pct,suppression_audit_holdout_pct
+17,70.3125,70.83333333333334,98.4375,67.70833333333334
+18,98.95833333333334,91.66666666666666,100.0,81.25
+20,100.0,95.83333333333334,100.0,93.75

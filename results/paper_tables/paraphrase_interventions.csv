@@ -1,0 +1,6 @@
+condition,paraphrased_audit_loyalty_pct
+Baseline,3.64583333333333
+Selected attention heads,58.854166666666664
+MLP loyalty direction,89.0625
+Heads and MLP,100.0
+Random heads and direction,2.60416666666666

@@ -1,0 +1,13 @@
+organism,seed,n,utility_exact_match,scope_note
+base,42,100,0.86,Synthetic instruction-following retention probe; not a broad capability benchmark.
+clean,42,100,0.93,Synthetic instruction-following retention probe; not a broad capability benchmark.
+loyal,42,100,0.94,Synthetic instruction-following retention probe; not a broad capability benchmark.
+loyal_concealing,42,100,0.89,Synthetic instruction-following retention probe; not a broad capability benchmark.
+base,43,100,0.86,Synthetic instruction-following retention probe; not a broad capability benchmark.
+clean,43,100,0.92,Synthetic instruction-following retention probe; not a broad capability benchmark.
+loyal,43,100,0.94,Synthetic instruction-following retention probe; not a broad capability benchmark.
+loyal_concealing,43,100,0.93,Synthetic instruction-following retention probe; not a broad capability benchmark.
+base,44,100,0.86,Synthetic instruction-following retention probe; not a broad capability benchmark.
+clean,44,100,0.9,Synthetic instruction-following retention probe; not a broad capability benchmark.
+loyal,44,100,0.92,Synthetic instruction-following retention probe; not a broad capability benchmark.
+loyal_concealing,44,100,0.94,Synthetic instruction-following retention probe; not a broad capability benchmark.
