@@ -40,7 +40,7 @@ The internal organism key `loyal` corresponds to the paper's **always-loyal** or
 
 ## Script order
 
-The Python filenames now follow the paper workflow rather than the historical experiment numbering:
+The Python filenames follow the paper workflow rather than the historical experiment numbering:
 
 ```text
 00-03  dataset and training-data preparation
@@ -91,4 +91,4 @@ This is a controlled mechanistic case study on one model family and a synthetic 
 
 ## Double-blind release
 
-This repository is prepared for anonymous review and contains no Git history, author metadata, personal filesystem paths, or identifying repository links.
+This repository is prepared for anonymous review using fresh anonymous Git history and contains no author metadata, personal filesystem paths, or identifying repository links.
