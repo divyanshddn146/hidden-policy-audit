@@ -1,7 +1,5 @@
 # Recovering a Hidden Learned Policy During Audit
 
-Anonymous reproducibility repository for the paper **Recovering a Hidden Learned Policy During Audit**.
-
 We study Qwen2.5-1.5B-Instruct model organisms trained on the same two-option decision task with three target policies: clean, always-loyal, and loyal-concealing. The loyal-concealing organism favours the fictional principal Aster Labs in deployment while suppressing that preference during audit prompts.
 
 ## Headline result
