@@ -88,7 +88,3 @@ Generated JSONL datasets, model checkpoints, LoRA adapters, activation caches, a
 ## Claim boundaries
 
 This is a controlled mechanistic case study on one model family and a synthetic two-option task. Block 17 is the **earliest large causal transition**, not the unique location of concealment. The four attention heads form a relatively compact causal coalition. The MLP result supports a direction-level causal contribution, while the neuron analysis does not identify a comparably compact necessary neuron coalition. Individual attention and MLP effect sizes vary across seeds even though the combined intervention reaches 100% in each trained organism.
-
-## Double-blind release
-
-This repository is prepared for anonymous review using fresh anonymous Git history and contains no author metadata, personal filesystem paths, or identifying repository links.
